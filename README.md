@@ -19,7 +19,7 @@ En este ejercicio, aprenderás a crear una página web replicando el diseño de 
 5. Implementa las siguientes media queries en tu CSS para cambiar el diseño en función del tamaño de la pantalla:
 
    - Cuando la pantalla sea menor de 480px, el menú del navbar debe convertirse en un menú desplegable u oculto.
-   - Cuando la pantalla sea mayor de 480px y menor de 768px, el menú tendrá que estar en el lateral.
+   - Cuando la pantalla sea mayor de 480px y menor de 768px, el menú tendrá que estar en el lateral. (No es necesario hacer la interacción)
 
 6. Asegúrate de que el diseño sea responsive.
 
