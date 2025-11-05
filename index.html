@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="main-hedaer">
-    <div class="ham">
+    <div id="ham" class="ham">
       <span></span>
       <span></span>
       <span></span>
@@ -16,17 +16,24 @@
     <div class="logo">
       <img src="./img/logo.png" alt="logo-planet-skin" />
     </div>
-    <nav class="categories">
-      <a href="#">Cuidado facial</a>
-      <a href="#">Tipo de piel</a>
-      <a href="#">Te preocupa</a>
-      <a href="#">Cuidados corporales</a>
-      <a href="#">Maquillaje</a>
-      <a href="#">Outlet y promociones</a>
-      <a href="#">Novedades</a>
-      <a href="#">Marcas</a>
-    </nav>
-    <div class="lang"></div>
+    <div id="categories" class="categories">
+      <span id="close-menu" class="close-menu">X</span>
+      <nav>
+        <a href="#">Cuidado facial</a>
+        <a href="#">Tipo de piel</a>
+        <a href="#">Te preocupa</a>
+        <a href="#">Cuidados corporales</a>
+        <a href="#">Maquillaje</a>
+        <a href="#">Outlet y promociones</a>
+        <a href="#">Novedades</a>
+        <a href="#">Marcas</a>
+      </nav>
+    </div>
+      <select class="lang" id="pais" name="pais">
+        <option value="es">🇪🇸 España</option>
+        <option value="us">🇺🇸 Estados Unidos</option>
+        <option value="fr">🇫🇷 Francia</option>
+      </select>
   </header>
   <main>
     <section class="masthead">
@@ -38,7 +45,44 @@
         <button>Comprar</button>
       </article>
     </section>
-    <h1>hola</h1>
+    <section>
+      <h2>Productos Planet Skin</h2>
+      <div class="products">
+        <article class="box">
+          <img src="./img/image.png" alt="crema" />
+          <div>
+            <h3>Mascarilla Some By Mi Spirulina PDRN Soothing </h2>
+            <p>€17,90</p>
+            <button>Compar</button>
+          </div>
+        </article>
+        <article class="box">
+          <img src="./img/crema.png" alt="crema" />
+          <div>
+            <h3>HOT PINK SUPER PLUS BEBLESH BALM RENEWAL</h2>
+            <p>€29,90</p>
+            <button>Compar</button>
+          </div>
+        </article>
+        <article class="box">
+          <img src="./img/bbsuper.png" alt="crema" />
+          <div>
+            <h3>HOT PINK SUPER PLUS BEBLESH BALM RENEWAL</h2>
+            <p>€29,90</p>
+            <button>Compar</button>
+          </div>
+        </article>
+        <article class="box">
+          <img src="./img/bb.png" alt="crema" />
+          <div>
+            <h3>HOT PINK SUPER PLUS BEBLESH BALM RENEWAL</h2>
+            <p>€29,90</p>
+            <button>Compar</button>
+          </div>
+        </article>
+      </div>
+    </section>
   </main>
+  <script defer src="./js/script.js"></script>
 </body>
 </html>
